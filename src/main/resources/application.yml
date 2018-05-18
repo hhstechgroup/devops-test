@@ -1,0 +1,13 @@
+application:
+  name: sample
+
+server:
+  servlet:
+    context-path: /sample
+  port: 8883
+#eureka:
+#  client:
+#    service-url:
+#      defaultZone: ${eureka.host}
+#    register-with-eureka: true
+#  host: http://localhost:8882/config/eureka/
